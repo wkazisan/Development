@@ -16,10 +16,25 @@
 
     <button type="button" onclick="document.write(5+6)">Try it</button>
 
+    <button type="button" onclick="window.print()">Print This Page</button>
+
     <script>
         document.getElementById("outpost").innerHTML = 5 + 10;
         document.write(5 + 6);
-        console.log(15+6);
+        console.log(15 + 6);
+    </script>
+
+    <h2 id="h2">JavaScript Statements</h2>
+
+    <p id="ps"></p>
+
+    <script>
+        let x, y, z;
+        x = 8;
+        y = 10;
+        z = x + y;
+
+        document.getElementById("ps").innerHTML = " The value Of Z is " + z + ".";
     </script>
 
 
