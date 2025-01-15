@@ -11,20 +11,27 @@
 </head>
 
 <body>
-    <p id="d1"></p>
-    <script>
-        let x, y, z;
-        x = 10;
-        y = 11;
-        z = x + y;
-        m = x * y;
-        document.getElementById("d1").innerHTML = z + m / x;
-    </script>
+    <div id="arth">
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+        <script>
+            let x = 5;
+            let y = 2;
+            let x1 = 5;
+            let z = x % y;
+            let z1 = x1;
+            let x3 = 5;
+            let x4 = 3;
 
-    <button type="button" onclick="myf()">Click Me!</button>
-    <button type="button" onclick="document.getElementById('d2').style.fontSize='80px' ">Big me!</button>
-    <p id="d2"></p>
-    <p id="d3"></p>
+            document.getElementById("demo1").innerHTML = z;
+            x1++;
+            document.getElementById("demo2").innerHTML = z1;
+            document.getElementById("demo3").innerHTML = x ** 2;
+            document.getElementById("demo4").innerHTML = Math.pow(x4, 2);
+        </script>
+    </div>
 </body>
 
 </html>
