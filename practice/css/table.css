@@ -1,0 +1,49 @@
+#fst{
+    width: 100%;
+}
+#fst, #fst th, #fst td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+}
+
+
+#fst td{
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 30px;
+}
+#fst td:hover{
+    padding-bottom: 10px;
+    background-color: green;
+    font-size: 30px;
+
+}
+#fst tr:hover{
+    background-color: red;
+    color: white;
+}
+#fst tr:nth-child(even){
+    background-color: yellow;
+}
+#sec{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+#sec th, #sec td{
+    text-align: left;
+    padding: 8px;
+}
+#sec th{
+    background-color: #04aa6d;
+    color: white;
+}
+#sec tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#sec caption{
+    margin-top: 20px;
+    caption-side: bottom;
+    font-size: smaller;
+}
