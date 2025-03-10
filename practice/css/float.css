@@ -1,14 +1,6 @@
-/* Reset margins and paddings for better consistency */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial,sans-serif;
-}
-/* Navigation container */
+
+/* Navigation container 
 #nav{
     list-style: none;
     background-color: #192a56;
@@ -17,7 +9,7 @@ body{
     overflow: hidden;
 }
 
-/* Navigation items */
+/* Navigation items 
 #nav li{
     float: left;
     width: 20%;
@@ -25,24 +17,24 @@ body{
     text-align: center;
     position: relative;
 }
-/* Remove separator from the last item */
+/* Remove separator from the last item 
 #nav li:last-child{
     border-right: none;
 }
-/* Navigation links */
+/* Navigation links 
 #nav li a{
     display: block;
     padding: 15px 0;
     color: #fff;
     text-decoration: none;
-    /* transition: background 0.3s ease, transform 0.3s ease; */
+    /* transition: background 0.3s ease, transform 0.3s ease; 
 }
-/* Hover effect */
+/* Hover effect 
 #nav li a:hover{
     background: #c23616;
     transform: translateY(-2px);
 }
-/* dropdown menu styles */
+/* dropdown menu styles 
 .dropdown{
     display: none;
     position: absolute;
@@ -67,13 +59,13 @@ body{
     display: block;
     animation: fadeIn 0.3s ease;
 }
-/* Animation keyframes */
+/* Animation keyframes 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive styling */
+/* Responsive styling 
 @media screen and (max-width: 768px) {
   #nav li {
     float: none;
@@ -90,13 +82,34 @@ body{
     padding: 15px;
   }
 
-  /* Optional: Hide dropdown by default on mobile */
+  /* Optional: Hide dropdown by default on mobile 
   #nav li .dropdown {
     position: static;
   }
 
-  /* Optional: Style for dropdown on mobile */
+  /* Optional: Style for dropdown on mobile 
   .dropdown li a {
-    padding-left: 30px; /* indent dropdown links */
+    padding-left: 30px; /* indent dropdown links 
   }
-}
+} */
+ /* Navigation Bar using Flex and grid */
+ #display{
+    background: #44bd32;
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+ }
+ #display li{
+  display: inline-block;
+ }
+ #display li a{
+  display: inline-block;
+  padding: 12px 15px;
+  color: #fff;
+  text-decoration: none;
+
+ }
+
+ #display li a:hover{
+  background: #c23616;
+ }
