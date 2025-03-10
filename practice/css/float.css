@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial,sans-serif;
+}
 /* Navigation container */
 #nav{
-    margin: 0 0 15px;
     list-style: none;
     background-color: #192a56;
     border-radius: 10px;
@@ -21,6 +23,7 @@
     width: 20%;
     border-right: 1px solid #fff;
     text-align: center;
+    position: relative;
 }
 /* Remove separator from the last item */
 #nav li:last-child{
@@ -31,8 +34,69 @@
     display: block;
     padding: 15px 0;
     color: #fff;
-    text-decoration: none;}
+    text-decoration: none;
+    /* transition: background 0.3s ease, transform 0.3s ease; */
+}
 /* Hover effect */
 #nav li a:hover{
     background: #c23616;
+    transform: translateY(-2px);
+}
+/* dropdown menu styles */
+.dropdown{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #273c75;
+    width: 100%;
+    z-index: 999;  
+}
+.dropdown li{
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.dropdown li:last-child{
+    border-bottom: none;
+}
+.dropdown li a{
+    padding: 12px 0;
+}
+#nav li:hover .dropdown{
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+/* Animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  #nav li {
+    float: none;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+  }
+
+  #nav li:last-child {
+    border-bottom: none;
+  }
+
+  #nav li a {
+    padding: 15px;
+  }
+
+  /* Optional: Hide dropdown by default on mobile */
+  #nav li .dropdown {
+    position: static;
+  }
+
+  /* Optional: Style for dropdown on mobile */
+  .dropdown li a {
+    padding-left: 30px; /* indent dropdown links */
+  }
 }
