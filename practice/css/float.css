@@ -1,0 +1,38 @@
+/* Reset margins and paddings for better consistency */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation container */
+#nav{
+    margin: 0 0 15px;
+    list-style: none;
+    background-color: #192a56;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Navigation items */
+#nav li{
+    float: left;
+    width: 20%;
+    border-right: 1px solid #fff;
+    text-align: center;
+}
+/* Remove separator from the last item */
+#nav li:last-child{
+    border-right: none;
+}
+/* Navigation links */
+#nav li a{
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;}
+/* Hover effect */
+#nav li a:hover{
+    background: #c23616;
+}
