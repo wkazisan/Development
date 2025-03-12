@@ -114,7 +114,7 @@ Welcome to **Code-Journey**! This is my personal **learning hub** where I docume
 
 | No. | Live Demo      | Code           | Article           |
 | --- | -------------- | -------------- | ----------------- |
-| 1   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
+| 1   | [Simple Layout](https://wkazisan.github.io/Code-Journey/practice/css/examples/boxes.html) | [Code Link](#) | [Article Link](#) |
 | 2   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
 | 3   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
 | ... | ...            | ...            | ...               |
