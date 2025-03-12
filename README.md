@@ -16,80 +16,81 @@ Welcome to **Code-Journey**! This is my personal **learning hub** where I docume
 
 ## 📂 Folder Structure
 
-📦 Code-Journey
-├─ .env
-├─ .gitignore
-├─ package.json
-├─ assets/
-├─ docs/
-│ ├─ articles/
-│ ├─ references/
-│ └─ resources/
-├─ icons/
-├─ images/
-├─ videos/
-├─ excel/
-│ ├─ advanced/
-│ ├─ automation/
-│ ├─ basics/
-│ ├─ data-analysis/
-│ └─ google-sheets/
-│ ├─ api-integration/
-│ └─ automation/
-├─ practice/
-│ ├─ accessibility/
-│ │ ├─ aria-roles/
-│ │ └─ screen-reader/
-│ ├─ cloud/
-│ ├─ css/
-│ │ ├─ examples/
-│ │ ├─ learn/
-│ │ ├─ scss/
-│ │ └─ tailwind/
-│ ├─ git/
-│ │ ├─ branching/
-│ │ └─ commands/
-│ ├─ html/
-│ │ ├─ examples/
-│ │ └─ learn/
-│ ├─ js/
-│ │ ├─ dom/
-│ │ ├─ examples/
-│ │ └─ learn/
-│ ├─ mongodb/
-│ │ ├─ mongodb-basics/
-│ │ └─ mongoose/
-│ ├─ mysql/
-│ │ ├─ mysql-basics/
-│ │ └─ mysql-with-node/
-│ ├─ node/
-│ │ ├─ api/
-│ │ └─ server/
-│ ├─ postgresql/
-│ │ ├─ postgresql-basics/
-│ │ └─ postgresql-with-node/
-│ ├─ react/
-│ │ ├─ advanced/
-│ │ └─ basics/
-│ ├─ responsive-design/
-│ │ ├─ flexbox/
-│ │ ├─ grid/
-│ │ └─ media-queries/
-│ └─ testing/
-│ ├─ jest/
-│ ├─ mocha/
-│ └─ selenium/
-├─ projects/
-│ ├─ blog-app/
-│ ├─ chat-app/
-│ ├─ e-commerce/
-│ ├─ portfolio/
-│ ├─ social-network/
-│ ├─ todo-app/
-│ └─ weather-app/
-├─ user-auth/
-│ ├─ jwt/
-│ └─ oauth/
+📦 Code-Journey<br>
+├─ index.html<br>
+├─ style.css<br>
+├─ .env<br>
+├─ .gitignore<br>
+├─ package.json<br>
+├─ assets/<br>
+├─ docs/<br>
+│ ├─ articles/<br>
+│ ├─ references/<br>
+│ └─ resources/<br>
+├─ icons/<br>
+├─ images/<br>
+├─ videos/<br>
+├─ excel/<br>
+│ ├─ advanced/<br>
+│ ├─ automation/<br>
+│ ├─ basics/<br>
+│ ├─ data-analysis/<br>
+│ └─ google-sheets/<br>
+│ ├─ api-integration/<br>
+│ └─ automation/<br>
+├─ practice/<br>
+│ ├─ accessibility/<br>
+│ │ ├─ aria-roles/<br>
+│ │ └─ screen-reader/<br>
+│ ├─ cloud/<br>
+│ ├─ css/<br>
+│ │ ├─ examples/<br>
+│ │ ├─ learn/<br>
+│ │ ├─ scss/<br>
+│ │ └─ tailwind/<br>
+│ ├─ git/<br>
+│ │ ├─ branching/<br>
+│ │ └─ commands/<br>
+│ ├─ html/<br>
+│ │ ├─ examples/<br>
+│ │ └─ learn/<br>
+│ ├─ js/<br>
+│ │ ├─ dom/<br>
+│ │ └─ learn/<br>
+│ ├─ mongodb/<br>
+│ │ ├─ mongodb-basics/<br>
+│ │ └─ mongoose/<br>
+│ ├─ mysql/<br>
+│ │ ├─ mysql-basics/<br>
+│ │ └─ mysql-with-node/<br>
+│ ├─ node/<br>
+│ │ ├─ api/<br>
+│ │ └─ server/<br>
+│ ├─ postgresql/<br>
+│ │ ├─ postgresql-basics/<br>
+│ │ └─ postgresql-with-node/<br>
+│ ├─ react/<br>
+│ │ ├─ advanced/<br>
+│ │ └─ basics/<br>
+│ ├─ responsive-design/<br>
+│ │ ├─ flexbox/<br>
+│ │ ├─ grid/<br>
+│ │ └─ media-queries/<br>
+│ └─ testing/<br>
+│ ├─ jest/<br>
+│ ├─ mocha/<br>
+│ └─ selenium/<br>
+├─ projects/<br>
+│ ├─ blog-app/<br>
+│ ├─ chat-app/<br>
+│ ├─ e-commerce/<br>
+│ ├─ portfolio/<br>
+│ ├─ social-network/<br>
+│ ├─ todo-app/<br>
+│ └─ weather-app/<br>
+├─ user-auth/<br>
+│ ├─ jwt/<br>
+│ └─ oauth/<br>
 
 ---
 
