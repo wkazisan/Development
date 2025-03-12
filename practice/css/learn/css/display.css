@@ -1,0 +1,17 @@
+#display .imgbox{
+    width: 180px;
+    float: left;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 4px;
+    padding: 6px;
+    border-radius: 3px;
+}
+#display button{
+    width: 100%;
+    background-color: #a4f5a7;
+}
+#display img{
+    width: 100%;
+    border-radius: 3px;
+}
