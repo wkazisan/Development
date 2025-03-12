@@ -9,7 +9,7 @@ Welcome to **Code-Journey**! This is my personal **learning hub** where I docume
 
 ### 🔗 Links
 
-- **GitHub Repository**: [Code-Journey](https://github.com/wkazisan/Code-Journey)  
+- **GitHub Repository**: [Code-Journey](https://github.com/wkazisan/Code-Journey)
 - **Live Web Page**: [Visit Here](https://wkazisan.github.io/Code-Journey/)
 
 ---
@@ -20,104 +20,104 @@ Welcome to **Code-Journey**! This is my personal **learning hub** where I docume
 ├─ .env
 ├─ .gitignore
 ├─ package.json
-├─ assets
-├─ docs
-│  ├─ articles
-│  ├─ references
-│  └─ resources
-├─ icons
-├─ images
-├─ videos
-├─ excel
-│  ├─ advanced
-│  ├─ automation
-│  ├─ basics
-│  ├─ data-analysis
-│  └─ google-sheets
-│     ├─ api-integration
-│     └─ automation
-├─ practice
-│  ├─ accessibility
-│  │  ├─ aria-roles
-│  │  └─ screen-reader
-│  ├─ cloud
-│  ├─ css
-│  │  ├─ examples
-│  │  ├─ learn
-│  │  ├─ scss
-│  │  └─ tailwind
-│  ├─ git
-│  │  ├─ branching
-│  │  └─ commands
-│  ├─ html
-│  │  ├─ examples
-│  │  └─ learn
-│  ├─ js
-│  │  ├─ dom
-│  │  ├─ examples
-│  │  └─ learn
-│  ├─ mongodb
-│  │  ├─ mongodb-basics
-│  │  └─ mongoose
-│  ├─ mysql
-│  │  ├─ mysql-basics
-│  │  └─ mysql-with-node
-│  ├─ node
-│  │  ├─ api
-│  │  └─ server
-│  ├─ postgresql
-│  │  ├─ postgresql-basics
-│  │  └─ postgresql-with-node
-│  ├─ react
-│  │  ├─ advanced
-│  │  └─ basics
-│  ├─ responsive-design
-│  │  ├─ flexbox
-│  │  ├─ grid
-│  │  └─ media-queries
-│  └─ testing
-│     ├─ jest
-│     ├─ mocha
-│     └─ selenium
-├─ projects
-│  ├─ blog-app
-│  ├─ chat-app
-│  ├─ e-commerce
-│  ├─ portfolio
-│  ├─ social-network
-│  ├─ todo-app
-│  └─ weather-app
-├─ user-auth
-│  ├─ jwt
-│  └─ oauth
+├─ assets/
+├─ docs/
+│ ├─ articles/
+│ ├─ references/
+│ └─ resources/
+├─ icons/
+├─ images/
+├─ videos/
+├─ excel/
+│ ├─ advanced/
+│ ├─ automation/
+│ ├─ basics/
+│ ├─ data-analysis/
+│ └─ google-sheets/
+│ ├─ api-integration/
+│ └─ automation/
+├─ practice/
+│ ├─ accessibility/
+│ │ ├─ aria-roles/
+│ │ └─ screen-reader/
+│ ├─ cloud/
+│ ├─ css/
+│ │ ├─ examples/
+│ │ ├─ learn/
+│ │ ├─ scss/
+│ │ └─ tailwind/
+│ ├─ git/
+│ │ ├─ branching/
+│ │ └─ commands/
+│ ├─ html/
+│ │ ├─ examples/
+│ │ └─ learn/
+│ ├─ js/
+│ │ ├─ dom/
+│ │ ├─ examples/
+│ │ └─ learn/
+│ ├─ mongodb/
+│ │ ├─ mongodb-basics/
+│ │ └─ mongoose/
+│ ├─ mysql/
+│ │ ├─ mysql-basics/
+│ │ └─ mysql-with-node/
+│ ├─ node/
+│ │ ├─ api/
+│ │ └─ server/
+│ ├─ postgresql/
+│ │ ├─ postgresql-basics/
+│ │ └─ postgresql-with-node/
+│ ├─ react/
+│ │ ├─ advanced/
+│ │ └─ basics/
+│ ├─ responsive-design/
+│ │ ├─ flexbox/
+│ │ ├─ grid/
+│ │ └─ media-queries/
+│ └─ testing/
+│ ├─ jest/
+│ ├─ mocha/
+│ └─ selenium/
+├─ projects/
+│ ├─ blog-app/
+│ ├─ chat-app/
+│ ├─ e-commerce/
+│ ├─ portfolio/
+│ ├─ social-network/
+│ ├─ todo-app/
+│ └─ weather-app/
+├─ user-auth/
+│ ├─ jwt/
+│ └─ oauth/
 
 ---
 
 ## 📚 What You’ll Find Here
 
-| 📁 **Category**      | 📄 **What’s Inside**                                                 |
-|----------------------|----------------------------------------------------------------------|
-| **Practice**         | Hands-on examples for CSS, HTML, JS, React, Node, Git, etc.          |
-| **Excel**            | Data analysis, automation, and Google Sheets API integration.        |
-| **Projects**         | Real-world projects like blog, chat-app, e-commerce, and more!       |
-| **User Auth**        | JWT and OAuth implementations for secure authentication systems.     |
-| **Docs**             | Articles, references, and learning resources for deeper knowledge.   |
-| **Icons, Images, Videos** | Assets to use in projects and UI/UX designs.                      |
-| **Cloud**            | AWS, Deployment strategies, CI/CD coming soon!                       |
-| **Responsive Design**| Flexbox, Grid, Media Queries for mobile-first and adaptive UIs.      |
-| **Testing**          | Unit, Integration, and E2E testing with Jest, Mocha, Selenium.       |
+| 📁 **Category**           | 📄 **What’s Inside**                                               |
+| ------------------------- | ------------------------------------------------------------------ |
+| **Practice**              | Hands-on examples for CSS, HTML, JS, React, Node, Git, etc.        |
+| **Excel**                 | Data analysis, automation, and Google Sheets API integration.      |
+| **Projects**              | Real-world projects like blog, chat-app, e-commerce, and more!     |
+| **User Auth**             | JWT and OAuth implementations for secure authentication systems.   |
+| **Docs**                  | Articles, references, and learning resources for deeper knowledge. |
+| **Icons, Images, Videos** | Assets to use in projects and UI/UX designs.                       |
+| **Cloud**                 | AWS, Deployment strategies, CI/CD coming soon!                     |
+| **Responsive Design**     | Flexbox, Grid, Media Queries for mobile-first and adaptive UIs.    |
+| **Testing**               | Unit, Integration, and E2E testing with Jest, Mocha, Selenium.     |
 
 ---
 
 ## 📜 Learning Journey Table
 
-| No. | Live Demo                              | Code                                     | Article                                   |
-|-----|----------------------------------------|------------------------------------------|-------------------------------------------|
-| 1   | [Live Link](#)                         | [Code Link](#)                           | [Article Link](#)                         |
-| 2   | [Live Link](#)                         | [Code Link](#)                           | [Article Link](#)                         |
-| 3   | [Live Link](#)                         | [Code Link](#)                           | [Article Link](#)                         |
-| ... | ...                                    | ...                                      | ...                                       |
-| 50  | [Live Link](#)                         | [Code Link](#)                           | [Article Link](#)                         |
+| No. | Live Demo      | Code           | Article           |
+| --- | -------------- | -------------- | ----------------- |
+| 1   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
+| 2   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
+| 3   | [Live Link](#) | [Code Link](#) | [Article Link](#) |
+| ... | ...            | ...            | ...               |
+| 50  | [Live Link](#) | [Code Link](#) | [Article Link](#) |
 
 > ⚡ **How to use**: Paste your project/demo/article links here as you progress!
 
