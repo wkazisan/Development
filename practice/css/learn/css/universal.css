@@ -137,8 +137,35 @@ div.a_v > div.line > p{
     display: inline-block;
     vertical-align: middle;
 }
+/* Using position & transform */
 div.a_t{
     background-color: #fcc3c3;
     width: 100%;
     height: 400px;
+    margin: 10px;
 }
+div.a_t > div.center{
+    position: relative;
+    border: 3px solid green;
+    height: 200px;
+}
+div.a_t > div.center > p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* center using flexbox */
+div.a_b{
+    width: 100%;
+    height: 400px;
+    background-color: #beacac;
+}
+div.a_b > div.center{
+border: 3px solid green;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* Align over */
