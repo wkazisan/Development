@@ -1,0 +1,6 @@
+1) https://wkazisan.github.io/Code-Journey/practice/css/examples/topnav.css
+2) /practice/css/examples/topnav.css
+
+----- Live view ---
+1) top nav: https://wkazisan.github.io/Code-Journey/practice/css/examples/topnav
+2) https://wkazisan.github.io/Code-Journey/practice/css/examples/sidebar
