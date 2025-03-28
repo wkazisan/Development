@@ -3,5 +3,5 @@
 
 ----- Live view ---
 1) top nav: https://wkazisan.github.io/Code-Journey/practice/css/examples/topnav
-2) https://wkazisan.github.io/Code-Journey/practice/css/examples/sidebar
+2) https://wkazisan.github.io/Code-Journey/practice/css/examples/sideba
 3) https://wkazisan.github.io/Code-Journey/practice/css/examples/dropdown
