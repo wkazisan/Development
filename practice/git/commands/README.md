@@ -11,11 +11,19 @@ show short status: git status --short
 stage a file: git add <filename>
 stage all files: git add --all or git add -A
 stag for that directory and it's subdirectory: git add .
-add without deleted: git add *
-only selected all file: git add *.<extension>
+add without deleted: git add _
+only selected all file: git add _.<extension>
+
+## Commit
+
 commit: git commit -m "here goes message"
 commit directly : git commit -a -m ""
+empty commit: git commit --allow-empty-message -m ""
+
 reset commit to before stage: git reset HEAD~
+
+<!-- End -->
+
 reset deleted file with file: git reset --hard
 git delete: git rm <file> git rm <filename> -f
 see commit history: git log
@@ -25,6 +33,11 @@ exit: q
 make any file: touch <filename.extention>
 which location: pwd
 back forward: cd ../
+
+## File create
+
+using "echo" or "touch"
+write :echo "# New Repository " > index.html
 
 <!-- Note -->
 
@@ -36,3 +49,8 @@ Short status flags are:
     D - Deleted files
 
 <!-- Branch Command -->
+
+check: git branch
+create: git branch <filename>
+switch: git checkout <branchname>
+remove: git rm -rf . or git rm -rf <filename>
