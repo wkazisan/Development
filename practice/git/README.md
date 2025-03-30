@@ -48,7 +48,7 @@ Short status flags are:
     M - Modified files
     D - Deleted files
 
-## Branch 
+## Branch
 
 check: git branch
 create: git branch <filename>
@@ -57,3 +57,5 @@ switch: git checkout <branchname>
 remove: git rm -rf . or git rm -rf <filename>
 push: git push origin <branchname>
 push fst time: git push --set-upstream origin draft
+
+copy from a branch: git checkout draft practice/git/commands/README.md
