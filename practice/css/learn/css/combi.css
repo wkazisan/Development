@@ -1,9 +1,0 @@
-.dashboard > .menu > li + li {
-    background-color: #f0f0f0;
-    color: red;
-  }
-  
-  .dashboard .content h2 + p {
-    color: green;
-  }
-  
