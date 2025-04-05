@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <title>Image Map</title>
+</head>
+<body>
+    <img src="/html/images/workplace.jpg" alt="Workplace" usemap="#workmap"> <!-- usemap for using this image as map-->
+    <map name="workmap">
+        <!-- rect,circle,poly,default -->
+         <area shape="rect" coords="34,44,270,350" href="computer.html" alt="Computer">
+         <!-- coords start from top left corner to right and top to bottom, 34,44 is located 34 pixels from the left margin and 44 pixels from the top-->
+          <area shape="circle" coords="337,300,44" href="" alt="">
+    </map>
+    <br>
+    <!-- Shape poly -complex -->
+    <img src="/html/images/frenchfood.jpg" alt="">
+</body>
+</html>

@@ -1,0 +1,46 @@
+a{
+    display: block;
+    margin: 10px;
+}
+a[target]{
+    background-color: #f0f0f0;
+    color: red;
+    text-decoration: none;
+}
+a[target="_self"]{
+    border: 2px dotted pink;
+}
+a[title~="procoder"]{
+    color: rgb(4, 82, 56);
+    font-weight: bolder;
+}
+a[title~="bd"]{
+    font-size: 30px;
+    color: blue;
+}
+div[class|="child"]{
+    width: 300px;
+    height: 200px;
+    background-color: #772f2f;
+}
+div[class|="child"]{
+    width: 300px;
+    height: 200px;
+    background-color: #772f2f;
+}
+div[class^="child"]{
+    width: 300px;
+    height: 200px;
+    background-color: #c1c41c;
+    margin-bottom: 5px;
+}
+/* কয়েকটা ছোট ডিজিট ধরে স্টাইল করা */
+div[class$="ial"]{
+    background-color: #000000;
+    color: #fff;
+}
+/* মাঝখানের যে কোন কয়েক ল্যাটার ধরে কাজ করলে  */
+div[class*="erv"]{
+    background-color: #19bda7d0;
+    color: #fff;
+}
