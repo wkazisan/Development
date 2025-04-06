@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form_1.css">
     <title>A Basic Form</title>
 </head>
+
 <body>
     <div class="contact">
         <h2>Level Up Your Brand</h2>
         <p>You can reach us anytime via <a href="mailto:feoavif@gmail.com" class="mail">feoavif@gmail.com</a></p>
         <form action="">
-            
+            <div class="child_form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="fname" placeholder="Your name.." required>
+            </div>
+            <div class="child_form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="you@company.com" required>
+            </div>
+            <div class="child_form">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="+1 (234) 567-8900" required>
+            </div>
+            <div class="child_form">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Tell us a little about the project ..." style="height:200px;width: 200px;"></textarea>
+            </div>
+            <div class="child_form">
+                <input type="button" value="Get Started">
+            </div>
         </form>
     </div>
 </body>
+
 </html>
